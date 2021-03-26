@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 220%;
 }
 
 .App-logo {
@@ -11,6 +14,33 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+body{
+  width: 40%;
+  display: flex;
+  background-color: crimson;
+  min-height: 20vh;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 3% auto;
+  font-size: 1em;
+  color: white;
+  border: solid black 3px;
+  /* border: solid 10px; */
+}
+
+#submit {
+  display: flex;
+  flex-direction: column;
+  margin: 3% auto;
+}
+
+h1 {
+  font-style: italic;
+  text-shadow: 3px 3px black;
 }
 
 .App-header {
